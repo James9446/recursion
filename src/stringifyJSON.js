@@ -54,12 +54,12 @@ var unstringifiableValues = [
     'undefined': undefined
   }
 ];
-console.log(stringifyJSON({a:1, b:2, c:[1,'2', 3], d: "string" }));
-console.log(stringifyJSON({'a': 'apple'}));
-console.log(stringifyJSON([[[['foo']]]]));
-console.log(stringifyJSON([{'a': 'b'}, {'c': 'd'}]));
-console.log(stringifyJSON({'a': [], 'c': {}, 'b': true}));
-console.log(stringifyJSON(unstringifiableValues));
+// console.log(stringifyJSON({a:1, b:2, c:[1,'2', 3], d: "string" }));
+// console.log(stringifyJSON({'a': 'apple'}));
+// console.log(stringifyJSON([[[['foo']]]]));
+// console.log(stringifyJSON([{'a': 'b'}, {'c': 'd'}]));
+// console.log(stringifyJSON({'a': [], 'c': {}, 'b': true}));
+// console.log(stringifyJSON(unstringifiableValues));
 
 
 
